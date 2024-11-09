@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        peach: {
+          100: '#FFDAB9',
+          300: '#FFCC99',
+          500: '#FF9966',
+        },
       },
     },
   },
   plugins: [],
-};
+}
 export default config;
